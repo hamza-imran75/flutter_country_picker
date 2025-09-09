@@ -35,6 +35,7 @@ import 'res/strings/sk.dart';
 import 'res/strings/tr.dart';
 import 'res/strings/tw.dart';
 import 'res/strings/uk.dart';
+import 'res/strings/sv.dart';
 
 class CountryLocalizations {
   final Locale locale;
@@ -141,6 +142,8 @@ class CountryLocalizations {
         return ca[countryCode];
       case 'fa':
         return fa[countryCode];
+      case 'sv':
+        return sv[countryCode];
       case 'en':
       default:
         return en[countryCode];
@@ -191,6 +194,7 @@ class _CountryLocalizationsDelegate
       'fa',
       'da',
       'ca',
+      'sv',
     ].contains(locale.languageCode);
   }
 
